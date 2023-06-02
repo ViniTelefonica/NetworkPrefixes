@@ -1,0 +1,55 @@
+:/ $ whoami
+u0_a494
+:/ $ id
+uid=10494(u0_a494) gid=10494(u0_a494) groups=10494(u0_a494),1077(external_storage),3003(inet),9997(everybody),20494(u0_a494_cache),50494(all_a494) context=u:r:untrusted_app:s0:c238,c257,c512,c768
+:/ $ df -h
+Filesystem            Size Used Avail Use% Mounted on
+/dev/block/dm-4       2.4G 2.4G   18M 100% /
+tmpfs                 1.3G 2.0M  1.3G   1% /dev
+tmpfs                 1.3G    0  1.3G   0% /mnt
+tmpfs                 1.3G    0  1.3G   0% /mnt/sde
+/dev/block/dm-5       817M 816M  988K 100% /product
+/dev/block/dm-6       559M 542M   17M  97% /vendor
+/dev/block/dm-7       3.9M 1.4M  2.5M  36% /odm
+/dev/block/dm-8       678M 183M  495M  27% /prism
+/dev/block/dm-9        87M 860K   86M   1% /optics
+tmpfs                 1.3G  36K  1.3G   1% /apex
+/dev/block/loop4      724K 696K   28K  97% /apex/com.google.mainline.primary.libs@311626000
+/dev/block/loop7      1.8M 1.7M   28K  99% /apex/com.android.appsearch@300000000
+/dev/block/dm-10      700K 672K   28K  96% /apex/com.google.mainline.primary.libs@331341040
+/dev/block/dm-11      3.8M 3.8M   28K 100% /apex/com.android.media@331318000
+/dev/block/dm-12      780K 752K   28K  97% /apex/com.android.tzdata@312511010
+/dev/block/dm-13      3.0M 2.9M   28K 100% /apex/com.android.neuralnetworks@331310000
+/dev/block/dm-14      4.4M 4.4M   28K 100% /apex/com.android.extservices@331312000
+/dev/block/loop12     284K 252K   32K  89% /apex/com.samsung.android.ipm@312461900
+/dev/block/dm-15      756K 728K   28K  97% /apex/com.android.ipsec@331310000
+/dev/block/dm-16       15M  15M   32K 100% /apex/com.android.media.swcodec@331318000
+/dev/block/dm-17      1.1M 1.1M   32K  98% /apex/com.android.os.statsd@331311000
+/dev/block/dm-18      8.9M 8.8M   28K 100% /apex/com.android.mediaprovider@331311080
+/dev/block/loop17     232K  92K  140K  40% /apex/com.samsung.android.shell@300000111
+/dev/block/dm-19      2.8M 2.7M   28K 100% /apex/com.android.resolv@331314010
+/dev/block/dm-20       14M  14M   32K 100% /apex/com.android.cellbroadcast@331310010
+/dev/block/loop20     232K  88K  144K  38% /apex/com.android.apex.cts.shim@1
+/dev/block/dm-21      3.4M 3.4M   28K 100% /apex/com.android.adbd@331314022
+/dev/block/dm-22      2.2M 2.2M   32K  99% /apex/com.android.conscrypt@331312000
+/dev/block/dm-23      232K 104K  128K  45% /apex/com.android.scheduling@331111000
+/dev/block/loop24      31M  31M   28K 100% /apex/com.android.i18n@1
+/dev/block/dm-24      520K 492K   28K  95% /apex/com.android.sdkext@331310010
+/dev/block/loop25      17M  17M   32K 100% /apex/com.android.vndk.v31@1
+/dev/block/dm-25      7.0M 7.0M   32K 100% /apex/com.android.tethering@331312080
+/dev/block/loop28     4.0M 4.0M   32K 100% /apex/com.android.runtime@1
+/dev/block/dm-26       16M  16M   28K 100% /apex/com.android.permission@331313010
+/dev/block/dm-27       26M  26M   32K 100% /apex/com.android.art@331314010
+/dev/block/dm-28      5.7M 5.7M   28K 100% /apex/com.android.wifi@319999900
+/dev/block/mmcblk0p75 153M  22M  131M  15% /cache
+/dev/block/mmcblk0p48  11M 340K   10M   4% /efs
+/dev/block/mmcblk0p76  45M  24K   45M   1% /omr
+/dev/block/mmcblk0p78  52G  50G  1.9G  97% /data
+/dev/fuse              52G  50G  1.9G  97% /storage/emulated
+tmpfs                 1.3G    0  1.3G   0% /data/data
+tmpfs                 1.3G    0  1.3G   0% /data/user
+tmpfs                 1.3G    0  1.3G   0% /data/user_de
+tmpfs                 1.3G    0  1.3G   0% /data/misc/profiles/cur
+tmpfs                 1.3G    0  1.3G   0% /data/misc/profiles/ref
+:/ $ cd /dev
+:/dev $ 

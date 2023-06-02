@@ -1,0 +1,136 @@
+
+------NEW CONNECTION TO 10.8.5.2------
+Autopushing login request to phone...
+Success. Logging you in...
+Last login: Wed May 31 14:02:46 2023 from 10.8.252.244
+[40416438@s-br-sp-spo-ctp-jmp-srv-01 ~]$ ssh 10.8.5.2
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++                             =================                             +
++                             !!! A L E R T !!!                             +
++                             =================                             +
++                                                                           +
++ You are entering into a secured area!  Your IP,  Login Time, Username has +
++ been noted and has been sent to the server administrator! This service is +
++ restricted to authorized users only.  All activities  on  this system are +
++ logged.  Unauthorized access will be fully investigated  and  reported to +
++ the appropriate law enforcement agencies.                                 +
++                                                                           +
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Password:
+Last login: Wed May 31 13:56:51 2023 from 200.204.1.4
+SPCTP-UNXART-DCG01#show ip bgp summary vrf AWS_INPOST | i 10429
+[?1h=[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf AWS_OUTPOST | i 10429
+[?1h=  172.30.157.212   4 10429        5241015   6277041    0    0   55d22h Estab   6      6
+[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf BILHETAGEM-S | i 10429
+[?1h=  172.30.157.200   4 10429        8102749   9697714    0    0   55d22h Estab   103    103
+[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf CONTACT_CENTER | i 10429
+[?1h=[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf CONTROL_UNICA | i 10429
+[?1h=  10.254.1.142     4 10429        8110389   9698367    0    0   55d22h Estab   105    105
+[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf DATA_UDC_AMBAPA | i 10429
+[?1h=[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf DATA_UDC_PRSCRS | i 10429
+[?1h=[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf DMZ | i 10429
+[?1h=[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf DNS_IES | i 10429
+[?1h=  187.100.208.114  4 10429         678281    812349    0    0    3d06h Connect
+  2001:12e0:0:1034:a005::3 4 10429         678289    812443    0    0    3d06h Connect
+[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf DNS_NOMINUM | i 10429
+[?1h=  172.30.157.220   4 10429        1067360   1277942    0    0   55d22h Estab   57     57
+[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf GERENCIA_CS | i 10429
+[?1h=  172.30.157.218   4 10429        1075053   1284010    0    0   55d22h Estab   272    272
+[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf GERENCIA_NGN | i 10429
+[?1h=  172.30.157.192   4 10429       10347528   9697535    0    0   55d22h Estab   15869  15869
+  172.30.157.194   4 10429       10347760   9697455    0    0   55d22h Estab   15869  15869
+[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf GER_ACESSO_FIXO | i 10429
+[?1h=  172.30.157.222   4 10429        1334935   1284076    0    0   55d22h Estab   852    852
+[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf GER_PS | i 10429
+[?1h=  172.30.157.224   4 10429        1008242   1203591    0    0   55d22h Estab   186    186
+[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf GLOBAL | i 10429
+[?1h=[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf GN | i 10429
+[?1h=  172.30.157.226   4 10429         613640    710360    0    0   35d00h Estab   3157   3157
+  172.30.157.230   4 10429         699635    710168    0    0   35d00h Estab   14847  14847
+[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf HRS_INTERNAL | i 10429
+[?1h=[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf INTERCONEXAO_SIP_11_H | i 10429
+[?1h=[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf INTERCONEXAO_SIP_21_H | i 10429
+[?1h=[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf INTERCONEXAO_SIP_31_H | i 10429
+[?1h=[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf INTERCONEXAO_SIP_41_H | i 10429
+[?1h=[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf INTERCONEXAO_SIP_48_H | i 10429
+[?1h=[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf INTERCONEXAO_SIP_92_H | i 10429
+[?1h=[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf IPTV_OPEN_UCAST | i 10429
+[?1h=  172.30.157.214   4 10429        1204206   1284214    0    0   55d22h Estab   3049   3049
+[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf MOBILE_CONTROL | i 10429
+[?1h=  172.30.157.228   4 10429        2741009   1203423    0    0   55d22h Estab   13796  13796
+[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf MP-BGP | i 10429
+[?1h=[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf MP-BGP  | i 10429
+[?1h=[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf MVNO | i 10429
+[?1h=[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf OPER | i 10429
+[?1h=  172.30.157.210   4 10429       10184726   9697365    0    0   55d22h Estab   15367  15367
+[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf OVERLAY_UNICA | i 10429
+[?1h=  10.254.1.142     4 10429        8111549   9697799    0    0   55d22h Estab   208    208
+[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf PROV_UDC_AMBAPA | i 10429
+[?1h=[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf PROV_UDC_PRSCRS | i 10429
+[?1h=[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf REDE_MGMT | i 10429
+[?1h=[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf REPLICATION | i 10429
+[?1h=[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf REPLICATION_DB_BROKER | i 10429
+[?1h=[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf SINALIZACAO | i 10429
+[?1h=  172.30.157.198   4 10429       10236473   9831479    0    0   43d07h Estab   25270  25270
+[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf SINALIZACAO_V3_V1 | i 10429
+[?1h=  172.30.157.202   4 10429       10394827   9698169    0    0   55d22h Estab   24925  24925
+[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf SINALIZACAO_V3_V2 | i 10429
+[?1h=  172.30.157.204   4 10429        9703321   9698048    0    0   55d22h Estab   6079   6079
+[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf SYNC_UNICA | i 10429
+[?1h=[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf VOIP_RES_PARES_H | i 10429
+[?1h=  172.30.157.216   4 10429        1097805   1283977    0    0   10d07h Estab   1558   1558
+[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf VOZ | i 10429
+[?1h=  172.30.157.196   4 10429        8222985   9587405    0    0   43d07h Estab   10566  10566
+[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf VOZ_V3_V1 | i 10429
+[?1h=  172.30.157.206   4 10429        8403935   9697508    0    0   55d22h Estab   10900  10900
+[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf VOZ_V3_V2 | i 10429
+[?1h=  172.30.157.208   4 10429        9513444   9697823    0    0   55d22h Estab   4839   4839
+[K[?1l>SPCTP-UNXART-DCG01#show ip bgp summary vrf VRF_DEA_DMZ | i 10429
+[?1h=[K[?1l>SPCTP-UNXART-DCG01#
+------NEW CONNECTION TO 10.8.5.2------
+Autopushing login request to phone...
+Success. Logging you in...
+Last login: Thu Jun  1 09:57:47 2023 from 10.136.7.77
+[40416438@s-br-sp-spo-ctp-jmp-srv-01 ~]$ ssh 10.8.5.2
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++                             =================                             +
++                             !!! A L E R T !!!                             +
++                             =================                             +
++                                                                           +
++ You are entering into a secured area!  Your IP,  Login Time, Username has +
++ been noted and has been sent to the server administrator! This service is +
++ restricted to authorized users only.  All activities  on  this system are +
++ logged.  Unauthorized access will be fully investigated  and  reported to +
++ the appropriate law enforcement agencies.                                 +
++                                                                           +
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Password:
+Last login: Thu Jun  1 09:18:59 2023 from 200.204.1.4
+SPCTP-UNXART-DCG01#terminal lenght 0
+% Invalid input
+SPCTP-UNXART-DCG01#show ip bgp summary vrf all | i 10429
+[?1h=  172.30.157.212   4 10429        5241556   6277691    0    0   55d22h Estab   6      6
+  172.30.157.200   4 10429        8103288   9698354    0    0   55d22h Estab   103    103
+  10.254.1.142     4 10429        8110925   9699009    0    0   55d22h Estab   105    105
+  187.100.208.114  4 10429         678281    812349    0    0    3d07h Connect
+  2001:12e0:0:1034:a005::3 4 10429         678289    812443    0    0    3d07h Connect
+  172.30.157.220   4 10429        1067889   1278578    0    0   55d22h Estab   57     57
+  172.30.157.218   4 10429        1075587   1284638    0    0   55d22h Estab   272    272
+  172.30.157.192   4 10429       10348179   9698164    0    0   55d22h Estab   15866  15866
+  172.30.157.194   4 10429       10348410   9698085    0    0   55d22h Estab   15866  15866
+  172.30.157.222   4 10429        1335619   1284703    0    0   55d22h Estab   851    851
+  172.30.157.224   4 10429        1008775   1204220    0    0   55d22h Estab   186    186
+  172.30.157.226   4 10429         614159    710982    0    0   35d00h Estab   3157   3157
+  172.30.157.230   4 10429         700321    710787    0    0   35d00h Estab   14849  14849
+  172.30.157.214   4 10429        1204721   1284822    0    0   55d22h Estab   3048   3048
+  172.30.157.228   4 10429        2741800   1204025    0    0   55d22h Estab   13789  13789
+  172.30.157.210   4 10429       10185326   9697962    0    0   55d22h Estab   15366  15366
+  10.254.1.142     4 10429        8112046   9698393    0    0   55d22h Estab   208    208
+  172.30.157.198   4 10429       10237061   9832063    0    0   43d08h Estab   25267  25267
+  172.30.157.202   4 10429       10395417   9698752    0    0   55d22h Estab   24922  24922
+  172.30.157.204   4 10429        9703811   9698629    0    0   55d22h Estab   6079   6079
+  172.30.157.216   4 10429        1098286   1284554    0    0   10d08h Estab   1558   1558
+  172.30.157.196   4 10429        8223470   9587979    0    0   43d08h Estab   10562  10562
+  172.30.157.206   4 10429        8404425   9698084    0    0   55d22h Estab   10896  10896
+  172.30.157.208   4 10429        9513926   9698393    0    0   55d22h Estab   4839   4839
+[K[?1l>SPCTP-UNXART-DCG01#
